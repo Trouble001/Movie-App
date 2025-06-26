@@ -21,7 +21,7 @@ const Navbar = () => {
   }
   return (
     <div className="w-full h-14 bg-white dark:bg-gray-950 border-b border-gray-300 dark:border-gray-800 shadow z-40 top-0 fixed">
-      <div className="w-10/12 mx-auto h-full flex items-center">
+      <div className="w-10/12 mx-auto h-full flex items-center justify-between">
         <p className="text-gray-950 dark:text-gray-50 font-normal text-lg"><Link to='/'>Moviner</Link></p>
         <SearchBar onSearch={handleSearch}/>
         <ThemeToggle />

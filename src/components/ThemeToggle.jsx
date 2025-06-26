@@ -9,7 +9,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="w-6 h-6 ml-4 flex items-center justify-center rounded cursor-pointer transition-all"
+      className="w-6 h-6 ml-6 flex items-center justify-center rounded cursor-pointer transition-all"
     >
       {theme === 'dark' ? (
         <SunIcon className="h-full w-full text-yellow-400" />
