@@ -36,7 +36,7 @@ useEffect(() => {
   }
 
   return (
-    <div className="w-full h-auto bg-white dark:bg-gray-950 z-0 pt-16 sm:pt-18 lg:pt-20 pb-8 px-2 md:px-4 lg:px-4 xl:px-6">
+    <div className="w-full h-auto bg-white dark:bg-gray-950 z-0 pt-16 sm:pt-18 lg:pt-20 pb-14 px-2 md:px-4 lg:px-4 xl:px-6">
       {loading && <Loader />}
       <div className="h-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 gap-2 sm:gap-3 md:gap-4 lg:gap-4 xl:gap-6 2xl:gap-6">
         {movies.map((movie) => (

@@ -14,7 +14,7 @@ const DetailCard = ({ movieDetails }) => {
   );
 
   return (
-    <div className="w-full h-auto md:h-screen pt-16 md:pt-18 lg:pt-22 px-2 md:px-4 lg:px-10 xl:px-14 2xl:px-16 pb-8 grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 dark:bg-gray-950">
+    <div className="w-full h-auto top-0 md:h-screen pt-16 md:pt-18 lg:pt-22 px-2 md:px-4 lg:px-10 xl:px-14 2xl:px-16 pb-8 grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 dark:bg-gray-950">
       <div className="w-full h-full lg:col-span-1 flex items-center">
         {movieDetails.poster_path ? (
           <img
